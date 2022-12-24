@@ -15,14 +15,18 @@
 body {
   font-family: "Roboto", sans-serif;
   text-align: center;
+  margin: 0;
+}
+
+section {
+    padding: 3rem 0;
 }
 
 .section-title {
   font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: 900;
-  margin-top: 3em;
-  margin-bottom: 0;
+  margin: 0;
   color: #00a1ab;
 }
 
@@ -69,11 +73,12 @@ body {
 .plans {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 2em 0;
 }
 
 .plan {
-  width: 200px;
+  width: calc(200px + 4em);
   padding: 2em;
   border-radius: 1em;
   margin: 0 0.5em;
@@ -91,6 +96,11 @@ body {
 .plan--light .button {
   color: white;
   background: #4e4e4e;
+}
+
+.plan--dark {
+    color: white;
+    background: #4e4e4e;
 }
 
 .plan--accent {
@@ -130,6 +140,10 @@ body {
   Teams
   ////////////// */
 
+.team {
+    margin: 0;
+}
+
 .team-members {
   display: flex;
   flex-wrap: wrap;
@@ -146,7 +160,25 @@ body {
   padding: 0.5em 2em 0.5em 0.5em;
 }
 
+.team-member--light {
+  color: #4e4e4e;
+  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
+}
+
+.team-member--light .name {
+    color: #00cdac;
+}
+
+.team-member--dark {
+    color: white;
+    background: #4e4e4e;
+}
+
 .team-member img {
   width: 10rem;
   border-radius: 0.25em;
+}
+
+.name, .position {
+    margin: 0;
 }
