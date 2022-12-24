@@ -37,9 +37,19 @@ h1 {
   background: linear-gradient(-45deg, #e5e3e8, #fafafa);
 }
 
+.plan--light .button {
+  color: white;
+  background: #4e4e4e;
+}
+
 .plan--accent {
   color: #fff;
   background: linear-gradient(-45deg, #00a1ab, #3741a0);
+}
+
+.plan--accent .button {
+  background: white;
+  color: #4e4e4e;
 }
 
 .plan__title {
@@ -71,14 +81,6 @@ h1 {
   border-radius: 0.25em;
   text-transform: uppercase;
   font-weight: 700;
-}
-
-.button--light {
-  background: white;
-  color: #4e4e4e;
-}
-
-.button--dark {
+  background: #00A1AB;
   color: white;
-  background: #4e4e4e;
 }
