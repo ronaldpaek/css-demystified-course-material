@@ -1,5 +1,5 @@
 /* Font used
-font-family: 'PT Sans', sans-serif; 
+font-family: 'PT Sans', sans-serif;
 */
 
 /* reset */
@@ -33,6 +33,17 @@ body {
 
 h1 {
   font-weight: 400;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.3rem 2.8rem;
+  background: #59E89C;
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .1rem;
+  font-weight: 700;
 }
 
 .hero {
