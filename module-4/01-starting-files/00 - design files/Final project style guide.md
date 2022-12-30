@@ -2,17 +2,15 @@
 
 ## Fonts
 
--  IBM Plex Sans
+- IBM Plex Sans
 
-  - 200
+- 200
 
 - IBM Plex Serif
 
   - 300
   - 400
   - 700
-
-  
 
 ### Font sizes
 
@@ -34,8 +32,6 @@
 - section titles and subtitles: 2.125rem
 - primary title: 4.25rem
 
-
-
 ## Colors
 
 - neutral 100: #fff
@@ -45,19 +41,12 @@
 - neutral 500: #434956
 - neutral 900: #020203
 
-
-
-- primary-300: #f3f7ff  (background in one or two places)
+- primary-300: #f3f7ff (background in one or two places)
 
 - primary-400: #8ea8da (link and button hovers)
-
-
 
 ## Layout
 
 - Max width of most content: 800px
 
 - Max width of article: 640px
-
-
-
